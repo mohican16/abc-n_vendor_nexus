@@ -28,9 +28,5 @@ PRODUCT_MANUFACTURER := LGE
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
-    BUILD_FINGERPRINT=google/bullhead/bullhead:7.1.2/N2G48C/4104010:user/release-keys \
-    PRIVATE_BUILD_DESC="bullhead-user 7.1.2 N2G48C 4104010 release-keys"
-
-# Addtional backup tools for dirty flash
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/generic/addon.d/91-font.sh:system/addon.d/91-font.sh
+    BUILD_FINGERPRINT=google/bullhead/bullhead:8.0.0/OPR6.170623.013/4283548:user/release-keys \
+    PRIVATE_BUILD_DESC="bullhead-user 8.0.0 OPR6.170623.013 4283548 release-keys"
